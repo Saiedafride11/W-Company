@@ -1,0 +1,565 @@
+*{
+	padding: 0;
+	margin: 0
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+.header-section{
+	width: 100%;
+	background: url(../images/hero.png) center top no-repeat;
+	background-size: cover;
+	padding: 0px 0px 100px;
+}
+
+.header-section .bg-light{
+	background-color: transparent !important;
+}
+
+.header-section .navbar-brand .logo{
+	width: 110px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #6633cc;
+	font-weight: 600;
+	background: url(../images/border.png) center bottom no-repeat;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #6633cc;
+	background: url(../images/border.png) center bottom no-repeat;
+	
+}
+
+.right-menu a{
+	color: #000;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.right-menu .btn-info{
+	padding: 7px 35px;
+    border-radius: 30px;
+    color: #fff;
+    background: linear-gradient(to left, #209bfe, #5725e5 60%);
+    border: 1px solid #5725e5;
+}
+
+.right-menu .btn-info:hover{
+    color: #5725e5;
+    background: transparent;
+    border: 1px solid #5725e5;
+    transition: 1s;
+}
+
+
+/*================================================
+                  Start banner
+===================================================*/
+
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+	text-align: right;
+}
+
+.banner .banner-inner h2{
+	font-size: 52px;
+	line-height: 59px;
+	letter-spacing: 1px;
+}
+.banner .banner-inner strong{
+	color: #6633cc;
+}
+
+.banner-inner .btn-light{
+	padding: 7px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.banner-inner .btn-light:hover{
+	color: #fff;
+    background: linear-gradient(to left, #209bfe, #5725e5 60%);
+    transition: 1s;
+}
+/*================================================
+                  End banner
+===================================================*/
+
+/*================================================
+                  Start highlight
+===================================================*/
+
+.highlight{
+	width: 100%;
+	background: url(../images/highlight.png) center top no-repeat;
+	background-size: cover;
+	
+}
+
+.highlight .highlight-inner{
+	width: 100%;
+	padding: 40px 0px;
+}
+
+.highlight .highlight-inner h2{
+	font-size: 28px;
+	line-height: 41px;
+	letter-spacing: 1px;
+	color: #fff;
+	margin-top: 52px;
+}
+
+/*================================================
+                  End highlight
+===================================================*/
+
+
+/*================================================
+                  Start feature
+===================================================*/
+
+.feature-section{
+	width: 100%;
+	padding: 110px 0px;
+}
+
+.feature-inner{
+	width: 90%;
+	margin: 0 auto;
+	padding: 90px 40px;
+	border: 1px solid #f4f4f4;
+	background: url(../images/home.png) right bottom no-repeat;
+	background-size: auto;
+}
+
+
+.feature-inner:hover{
+	border: 1px solid transparent;
+	box-shadow: 0 5px 14px rgba(0, 0, 0, .25);
+}
+.feature-inner h2{
+	font-size: 38px;
+	line-height: 48px;
+	letter-spacing: 1px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 10px;
+	
+}
+
+.feature-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	margin-right: 5px;
+}
+
+.inner-feature{
+	width: 100%;
+	margin-top: 35px;
+
+}
+.inner-feature p strong{
+	font-size: 90px;
+	line-height: 105px;
+	color: #5725e5;
+	font-weight: 700;
+}
+.inner-feature p span{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000;
+	margin-left: 20px;
+}
+
+.client-img{
+	width: 90%;
+	margin: 50px auto 30px;
+}
+
+
+/*================================================
+                  End feature
+===================================================*/
+
+
+/*================================================
+                  Start intro
+===================================================*/
+
+.intro-section{
+	width: 100%;
+	padding: 150px 0px;
+	background: url(../images/bg-1.png) center top no-repeat;
+	background-size: cover;
+}
+
+.intro-section .intro-left{
+	width: 100%;
+	padding: 190px 80px;
+	background: url(../images/Group-box.png) center top no-repeat;
+	background-size: auto;
+}
+
+.intro-section .intro-left p{
+	margin-left: 75px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.intro-section .intro-right{
+	width: 100%;
+	padding: 90px 0px 0px;
+}
+
+.intro-section .intro-right h2{
+	font-size: 44px;
+	line-height: 50px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.intro-right .btn-light{
+	padding: 7px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    color: #000;
+    background-color: #fff;
+}
+
+.intro-right .btn-light:hover{
+	color: #fff;
+    background: linear-gradient(to left, #209bfe, #5725e5 60%);
+    transition: 1s;
+}
+
+/*================================================
+                  End intro
+===================================================*/
+
+
+/*================================================
+                  Start happiness-section
+===================================================*/
+
+.happiness-section{
+	width: 100%;
+	padding: 80px 0px;
+	
+}
+.happiness{
+	background: url(../images/together.png) right top no-repeat;
+	background-size: contain;
+}
+
+.happiness-section .happiness-top{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.happiness-top h2{
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 1px;
+	color: #000;
+	font-weight: 700;
+	padding-top: 90px;
+	margin-bottom: 30px;	
+}
+
+.happiness-top .happiness-1st{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	margin-bottom: 30px;
+	
+}
+
+.happiness-middle .happiness-2nd{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	margin-bottom: 30px;
+	
+}
+
+.happiness-bottom .btn-light{
+	padding: 7px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(to left, #209bfe, #5725e5 60%);
+    margin-bottom: 10px;
+	border: 2px solid transparent;
+}
+
+.happiness-bottom .btn-light:hover{
+	border: 2px solid #6633cc;
+	background:transparent;
+	color: #6633cc;
+	transition: 1s;
+}
+/*================================================
+                  End happiness-section
+===================================================*/
+
+/*================================================
+                  Start feedback-section
+===================================================*/
+
+.feedback-section-1st{
+	width: 100%;
+	padding: 60px 0px;
+	background: #fcfcfc;
+	text-align: center;
+}
+
+.feedback-section-1st .feedback-1st h2{
+	font-size: 42px;
+	line-height: 50px;
+	color: #000;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.feedback-section-1st .feedback-1st p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	
+}
+
+
+/*===========feedback-section-2nd============*/
+
+
+.feedback-section-2nd{
+	width: 100%;
+	float: left;
+	padding: 0px 0px;
+	background: #fcfcfc;
+	
+}
+
+ .feedback-2nd{
+    float: left;
+	padding: 15px;
+	text-align: center;
+}
+
+.feedback-2nd h4{
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.feedback-2nd p{
+	font-size: 16px;
+	line-height: 24px;
+	
+	color: #000;
+	
+}                          
+
+/*================================================
+                  End feedback-section
+===================================================*/
+
+/*================================================
+                 Start Inspirational-section
+===================================================*/
+
+.Inspirational-title{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.Inspirational-title h2{
+	font-size: 42px;
+	line-height: 50px;
+	color: #000;
+	font-weight: 700;
+	margin-top: 70px;
+		
+}
+
+/*========Inspirational-section==========*/
+
+.Inspirational-section{
+	width: 100%;
+	padding:  0PX;
+	float: left;
+	text-align: center;
+}
+
+.Inspirational-section .Inspirational{
+	border: 1px solid #f4f4f4;
+	background: url(../images/line-main.png) right top no-repeat;
+	background-size: contain;
+}
+
+.Inspirational-section .Inspirational:hover{
+	border: 1px solid transparent;
+	box-shadow: 0 5px 14px rgba(0, 0, 0, .25);
+	
+
+}
+.Inspirational p{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #999999;
+	margin-top: 60px;
+}
+
+.Inspirational p:hover{
+	color: #6633cc; 
+}
+
+.Inspirational .Inspirational-line{
+	margin-top: 60px;
+}
+
+.Inspirational .Inspirational-man{
+	margin-top: 30px;
+}
+
+.Inspirational .Inspirational-name{
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.Inspirational .Inspirational-sub-name{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	margin-top: 0px;
+}
+/*================================================
+                 End Inspirational-section
+===================================================*/
+
+
+/*================================================
+                 Start Footer-section
+===================================================*/
+
+.footer-section{
+	width: 100%;
+	padding:  0px;
+	background:  url(../images/footer.png)  left bottom no-repeat;
+	background-size: contain;
+}
+
+
+.footer-top{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 110px;
+	border: 1px solid #f4f4f4;
+	background: #fff;
+}
+
+.footer-top:hover{
+	border: 1px solid transparent;
+	box-shadow: 0 5px 14px rgba(0, 0, 0, .25);
+}
+.footer-top h2{
+	font-size: 45px;
+	line-height: 55px;
+	text-align: center;
+	color: #000;
+	font-weight: 700;
+	margin-top: 90px;
+	margin-bottom: 120px;
+}
+.footer-top .footer-layout{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #0000ff;
+	margin-left: 100px;
+}
+.footer-top .footer-p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #000;
+	margin-left: 100px;
+	margin-bottom: 60px;
+}
+.footer-top .footer-question{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #000;
+	margin-left: 100px;
+	
+}
+
+.footer-last{
+	margin-bottom: 90px;
+}
+
+
+
+.footer-bottom{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.footer-bottom p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+/*================================================
+                 End Footer-section
+===================================================*/
